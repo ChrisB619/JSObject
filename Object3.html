@@ -1,0 +1,24 @@
+<script>
+class Student {
+    constructor(FirstName, LastName, Address, Age, Email) {
+      this.FirstName = FirstName;
+      this.LastName = LastName;
+      this.Address = Address;
+      this.Age = Age;
+      this.Email = Email;
+    }
+  }
+  
+  Student.prototype.Nationality = "American";
+  Student.prototype.Language = "English";
+  
+  let student = new Student("Mary", "Smith", "BURKHARDT RD. EVANSVILLE.", 29, "mary123@yahoo.com");
+  
+  console.log(student.FirstName); // Mary
+  console.log(student.LastName); // Smith
+  console.log(student.Address); // BURKHARDT RD. EVANSVILLE.
+  console.log(student.Age); // 29
+  console.log(student.Email); // mary123@yahoo.com
+  console.log(student.Nationality); // American
+  console.log(student.Language); // English
+</script>

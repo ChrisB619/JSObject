@@ -1,0 +1,32 @@
+<script>
+class Arithmetic {
+    constructor(Input1, Input2) {
+      this.Input1 = Input1;
+      this.Input2 = Input2;
+    }
+  
+    multiplication() {
+      return this.Input1 * this.Input2;
+    }
+  
+    division() {
+      return this.Input1 / this.Input2;
+    }
+  
+    subtraction() {
+      return this.Input1 - this.Input2;
+    }
+  
+    addition() {
+      return this.Input1 + this.Input2;
+    }
+  }
+
+
+let arithmetic = new Arithmetic(10, 5);
+
+console.log(arithmetic.multiplication()); // 50
+console.log(arithmetic.division()); // 2
+console.log(arithmetic.subtraction()); // 5
+console.log(arithmetic.addition()); // 15
+</script>
